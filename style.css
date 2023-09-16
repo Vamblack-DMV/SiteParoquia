@@ -36,6 +36,8 @@ header img {
 }
 
 /* Conteúdo Principal */
+
+/* Página Index */
 .news-container {
     display: flex;
     margin: 1rem 0;
@@ -46,18 +48,57 @@ header img {
 .news-item {
     border: 1px solid #333;
     margin: 1.5rem 0;
-    box-shadow: rgba(0,0,0, .34) 4px 6px 8px;
+    box-shadow: rgba(0, 0, 0, .34) 4px 6px 8px;
     padding: 1rem;
-    will-change: 600px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
 .news-item img {
+    height: 500px;
+    object-fit: cover;
+    width: 500px;
+}
+
+/* Página Pároco */
+.news-pcontainer {
+    display: flex;
+    margin: 1rem 0;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.news-paroco {
+    border: 1px solid #333;
+    margin: 1.5rem 0;
+    box-shadow: rgba(0, 0, 0, .34) 4px 6px 8px;
+    padding: 1rem;
+    will-change: 600px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.news-paroco img {
     height: 400px;
     object-fit: cover;
     width: 400px;
+}
+
+/* Página Secretaria */
+.news-secret {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    will-change: 800px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.news-secret ul {
+    list-style-type: disc;
+    gap: 2rem;
 }
 
 /* Barra lateral */
@@ -86,7 +127,7 @@ footer img {
     height: 20px;
 }
 
-footer a{
+footer a {
     display: inline-flex;
     flex-direction: row;
     text-decoration: none;
@@ -101,5 +142,5 @@ footer a{
 }
 
 footer a:hover {
-    color: #a2a8fa;
+    color: #847c99;
 }
