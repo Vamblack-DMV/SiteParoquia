@@ -105,6 +105,41 @@
         color: #959cfc;
     }
 
+    /* Slider - Carrosel */
+    .galery {
+        width: 600px;
+        height: 360px;
+        overflow: hidden;
+    }
+
+    .galery .fotos {
+        width: 400%;
+        animation-name: animação;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+
+    .galery .fotos img {
+        width: 100%;
+    }
+
+    .fotos {
+        list-style: none;
+        display: flex;
+    }
+
+    @keyframes animação {
+        0% {margin-left: 0; }
+        20% {margin-left: 0; }
+        25% {margin-left: -100%; }
+        45% {margin-left: -100%; }
+        50% {margin-left: -200%; }
+        70% {margin-left: -200%; }
+        75% {margin-left: -300%; }
+        95% {margin-left: -300%; }
+        100% {margin-left: -400%; }
+        }
+
     /* Página Pároco */
     .news-pcontainer {
         display: flex;
@@ -224,7 +259,7 @@
         display: flex;
         list-style: none;
         justify-content: center;
-        gap: 1rem;
+        gap: 0.5rem;
     }
 
     nav a {
@@ -292,6 +327,43 @@
         border-bottom: 1px solid #959cfc;
         padding-bottom: 10px;
     }
+
+     /* Slider - Carrosel */
+
+     /* As fotos devem estar com o tamanho certo da galery implementada*/
+     .galery {
+        width: 600px;
+        height: 360px;
+        overflow: hidden;
+    }
+
+    .galery .fotos {
+        width: 400%;
+        animation-name: animação;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+
+    .galery .fotos img {
+        width: 100%;
+    }
+
+    .fotos {
+        list-style: none;
+        display: flex;
+    }
+
+    @keyframes animação {
+        0% {margin-left: 0; }
+        20% {margin-left: 0; }
+        25% {margin-left: -100%; }
+        45% {margin-left: -100%; }
+        50% {margin-left: -200%; }
+        70% {margin-left: -200%; }
+        75% {margin-left: -300%; }
+        95% {margin-left: -300%; }
+        100% {margin-left: -400%; }
+        }
 
     /* Página Pároco */
     .news-pcontainer {
