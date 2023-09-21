@@ -23,11 +23,17 @@
     }
 
     nav a {
+        font-size: 20px;
+        border: 3px transparent;
+        padding: 5px;
         color: #fff;
         text-decoration: none;
     }
 
     nav a:hover {
+        border-top: 1px solid #959cfc;
+        border-bottom: 1px solid #959cfc;
+        padding: 5px;
         color: #5f69f5;
     }
 
@@ -69,6 +75,24 @@
         height: 500px;
         object-fit: cover;
         width: 500px;
+    }
+
+    p span {
+        color: #2e3466;
+        font-style: oblique;
+        font-weight: bolder;
+    }
+
+    p#linhas {
+        border-bottom: 1px solid #959cfc;
+        border-top: 1px solid #959cfc;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    p#linha {
+        border-bottom: 1px solid #959cfc;
+        padding-bottom: 10px;
     }
 
     /* Página Pároco */
@@ -183,6 +207,7 @@
 
     h1#paroquia {
         text-align: center;
+        padding-bottom: 20px;
     }
 
     nav ul {
@@ -193,11 +218,16 @@
     }
 
     nav a {
+        border: 3px transparent;
+        padding: 5px;
         color: #fff;
         text-decoration: none;
     }
 
     nav a:hover {
+        border-top: 1px solid #959cfc;
+        border-bottom: 1px solid #959cfc;
+        padding: 5px;
         color: #5f69f5;
     }
 
@@ -233,6 +263,24 @@
         height: 500px;
         object-fit: cover;
         width: 500px;
+    }
+
+    p span {
+        color: #2e3466;
+        font-style: oblique;
+        font-weight: bolder;
+    }
+
+    p#linhas {
+        border-bottom: 1px solid #959cfc;
+        border-top: 1px solid #959cfc;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    p#linha {
+        border-bottom: 1px solid #959cfc;
+        padding-bottom: 10px;
     }
 
     /* Página Pároco */
