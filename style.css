@@ -95,6 +95,16 @@
         padding-bottom: 10px;
     }
 
+    a#WhatsApp {
+        text-decoration: none;
+        color: #2e3466;
+    }
+
+    a#WhatsApp:hover {
+        text-decoration: none;
+        color: #959cfc;
+    }
+
     /* Página Pároco */
     .news-pcontainer {
         display: flex;
