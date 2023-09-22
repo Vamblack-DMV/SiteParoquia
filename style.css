@@ -51,6 +51,11 @@
         border-radius: 100%;
     }
 
+    h1#paroquia a {
+        color: #fff;
+        text-decoration: none;
+    }
+
     /* Conteúdo Principal */
 
     /* Página Index */
@@ -95,14 +100,8 @@
         padding-bottom: 10px;
     }
 
-    a#WhatsApp {
-        text-decoration: none;
-        color: #2e3466;
-    }
-
-    a#WhatsApp:hover {
-        text-decoration: none;
-        color: #959cfc;
+    h2#celebracao {
+        text-align: center;
     }
 
     /* Slider - Carrosel */
@@ -255,11 +254,16 @@
         padding-bottom: 20px;
     }
 
+    h1#paroquia a {
+        color: #fff;
+        text-decoration: none;
+    }
+
     nav ul {
         display: flex;
         list-style: none;
         justify-content: center;
-        gap: 0.5rem;
+        gap: 0.2rem;
     }
 
     nav a {
